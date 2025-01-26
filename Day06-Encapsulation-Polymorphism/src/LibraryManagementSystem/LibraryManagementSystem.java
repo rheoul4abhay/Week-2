@@ -6,9 +6,9 @@ public class LibraryManagementSystem {
     public static void main(String[] args){
         ArrayList<LibraryItem> items = new ArrayList<>();
 
-        Book book = new Book("@123", "Harry Potter", "JK Rowling");
-        Magazine magazine = new Magazine("@456", "Hindustan Times", "Various");
-        DVD dvd = new DVD("@789", "Heat Waves", "Glass Animals");
+        LibraryItem book = new Book("@123", "Harry Potter", "JK Rowling");
+        LibraryItem magazine = new Magazine("@456", "Hindustan Times", "Various");
+        LibraryItem dvd = new DVD("@789", "Heat Waves", "Glass Animals");
 
         items.add(book);
         items.add(magazine);

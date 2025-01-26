@@ -6,8 +6,8 @@ public class OnlineFoodDeliverySystem {
     public static void main(String[] args){
         ArrayList<FoodItem> foodItems = new ArrayList<>();
 
-        VegItem dosa = new VegItem("Masala Dosa", 5.0, 3);
-        NonVegItem butterChicken = new NonVegItem("Butter Chicken", 10.0, 2);
+        FoodItem dosa = new VegItem("Masala Dosa", 5.0, 3);
+        FoodItem butterChicken = new NonVegItem("Butter Chicken", 10.0, 2);
 
         foodItems.add(dosa);
         foodItems.add(butterChicken);

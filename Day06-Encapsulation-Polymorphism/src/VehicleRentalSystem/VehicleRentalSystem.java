@@ -6,9 +6,9 @@ public class VehicleRentalSystem {
     public static void main(String[] args){
         ArrayList<Vehicle> vehicles = new ArrayList<>();
 
-        Car car = new Car("CAR123", 1000.0, "CAR_INS_123");
-        Bike bike = new Bike("BIKE456", 500.0, "BIKE_INS_456");
-        Truck truck = new Truck("Truck789", 3000.0, "TRUCK_INS_789");
+        Vehicle car = new Car("CAR123", 1000.0, "CAR_INS_123");
+        Vehicle bike = new Bike("BIKE456", 500.0, "BIKE_INS_456");
+        Vehicle truck = new Truck("Truck789", 3000.0, "TRUCK_INS_789");
 
         vehicles.add(car);
         vehicles.add(bike);

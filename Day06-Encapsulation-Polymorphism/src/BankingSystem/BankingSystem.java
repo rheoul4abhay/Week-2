@@ -6,8 +6,8 @@ public class BankingSystem {
     public static void main(String[] args){
         ArrayList<BankAccount> accounts = new ArrayList<>();
 
-        SavingsAccount savingsAccount = new SavingsAccount("@123", "Will Smith", 6000.0);
-        CurrentAccount currentAccount = new CurrentAccount("@456", "Ken Kaneki", 9000.0);
+        BankAccount savingsAccount = new SavingsAccount("@123", "Will Smith", 6000.0);
+        BankAccount currentAccount = new CurrentAccount("@456", "Ken Kaneki", 9000.0);
 
         accounts.add(savingsAccount);
         accounts.add(currentAccount);
