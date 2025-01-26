@@ -1,6 +1,7 @@
 package BankingSystem;
 
 public abstract class BankAccount {
+
     private String accountNumber;
     private String accountHolderName;
     private double balance;

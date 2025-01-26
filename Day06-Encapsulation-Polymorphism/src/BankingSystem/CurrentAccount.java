@@ -3,6 +3,7 @@ package BankingSystem;
 public class CurrentAccount extends BankAccount implements Loanable{
 
     private static final double interestRate = 0.0;
+
     public CurrentAccount(String accountNumber, String accountHolderName, double balance){
         super(accountNumber, accountHolderName, balance);
     }
